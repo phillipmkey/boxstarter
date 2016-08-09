@@ -1,0 +1,18 @@
+Install-WindowsUpdate
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar -EnableShowFrequentFoldersInQuickAccess -EnableExpandToOpenFolder
+Set-TaskbarOptions -Size Small -Lock -Dock Bottom -Combine Always
+Disable-GameBarTips
+
+cinst googlechrome
+cinst 7zip.install
+cinst vlc
+cinst powershell
+cinst dropbox
+cinst sublimetext3
+cinst sublimetext3.packagecontrol
+cinst calibre
+cinst foxitreader
+cinst googledrive
+cinst steam
+cinst sourcecodepro
+cinst battle.net
